@@ -2,6 +2,30 @@
 <html lang="en">
 
 <head>
+  <!-- Favicon and App Icons -->
+  <link rel="icon" type="image/svg+xml" href="logo.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <meta name="msapplication-TileColor" content="#0799A1">
+  <meta name="msapplication-TileImage" content="/mstile-144x144.png">
+
+  <!-- SEO Meta Tags -->
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="Temani Consultancy">
+  <meta name="keywords" content="Temani, technology, consultancy, software, IT, partner, dragon, myth, resilience, growth, Indonesia, interim, business, solutions">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://temani-consultancy.github.io/">
+  <meta property="og:image" content="/og-image.png">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Temani — You never walk alone in technology">
+  <meta name="twitter:description" content="Temani is your trusted companion in technology — wise as the dragon, close as a partner, and always guiding the way forward.">
+  <meta name="twitter:image" content="/og-image.png">
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Temani — You never walk alone in technology</title>
@@ -24,9 +48,9 @@
         <span>TEMANI</span>
       </a>
       <nav class="flex gap-2">
-        <a class="px-4 py-2 rounded-full border border-[#005C6D]/30 text-[#005C6D] hover:bg-[#009E8A]/10"
+        <a class="px-4 py-2 rounded-full border border-[#005C6D]/30 text-[#005C6D] hover:bg-[#009E8A]/10 hidden md:inline"
           href="#story">Our Story</a>
-        <a class="px-4 py-2 rounded-full border border-[#005C6D]/30 text-[#005C6D] hover:bg-[#009E8A]/10"
+        <a class="px-4 py-2 rounded-full border border-[#005C6D]/30 text-[#005C6D] hover:bg-[#009E8A]/10 hidden md:inline"
           href="#mission">Mission</a>
         <a class="px-4 py-2 rounded-full bg-gradient-to-r from-[#0799A1] to-[#07949E] text-white shadow hover:opacity-90"
           href="#contact">Get in touch</a>
@@ -35,26 +59,23 @@
   </header>
 
 
-
   <!-- HERO -->
   <section id="top" class="relative border-b border-black/5">
-    <!-- fix white background alignment by using a full-width gradient background -->
     <div class="absolute inset-0 bg-[#f7fbfb]"></div>
-    <div class="relative max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-8 items-center min-h-[80vh] py-16">
+    <div class="relative max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-8 items-center min-h-[80vh] pt-0 md:pt-4 pb-24 md:pb-16">
       <div class="relative reveal-on-scroll will-change-transform flex items-center justify-center">
         <figure class="relative flex flex-col items-center">
-          <!-- logo with centered white circle backdrop -->
           <div class="relative w-[18rem] md:w-[26rem] flex items-center justify-center">
-            <div aria-hidden="true"
+            <!-- <div aria-hidden="true"
               class="absolute w-[65%] left:[2.9rem] top-[2.5rem] md:left-[4rem] md:top-[3.5rem] aspect-square rounded-full bg-white shadow-md">
-            </div>
+            </div> -->
             <img src="logo.svg" alt="Temani emblem" class="relative w-full h-auto"
               style="filter: drop-shadow(0 22px 44px rgba(0,0,0,.18));" />
           </div>
       </div>
-      <div class="reveal-on-scroll will-change-transform">
+      <div class="reveal-on-scroll will-change-transform text-center md:text-left">
         <span class="uppercase text-xs tracking-wide font-bold text-[#009E8A]">Your trusted companion in tech</span>
-        <h1 class="text-4xl md:text-6xl font-extrabold text-[#005C6D] leading-tight mt-2">You never walk alone in
+        <h1 class="text-4xl md:text-6xl font-extrabold text-[#005C6D] leading-tight mt-2  pb-6 md:pb-0">You never walk alone in
           technology.</h1>
         <div class="mt-6 flex flex-wrap gap-3">
           <a class="px-5 py-3 rounded-full bg-gradient-to-r from-[#0799A1] to-[#07949E] text-white shadow"
@@ -69,7 +90,7 @@
   <!-- STORY / LEGEND -->
   <section id="story" class="relative py-24 bg-white overflow-hidden">
     <div class="relative max-w-6xl mx-auto px-6 text-left">
-      <h2 class="text-4xl font-extrabold text-[#005C6D] mb-6 reveal-on-scroll will-change-transform">The Myth that
+      <h2 class="text-4xl font-extrabold text-[#005C6D] mb-6 text-center md:text-left reveal-on-scroll will-change-transform">The Myth that
         Inspires the Mission</h2>
       <div class="space-y-6 text-base text-[#4a6970] leading-relaxed">
         <p class="reveal-on-scroll will-change-transform">In old legends, dragons were calm guardians — keepers of
@@ -96,8 +117,8 @@
         class="absolute inset-0 opacity-[0.06] bg-[url('emblem.svg')] bg-center bg-no-repeat bg-contain pointer-events-none">
       </div>
       <div class="relative max-w-6xl mx-auto px-6 text-left space-y-6">
-        <h2 class="text-4xl font-extrabold text-[#005C6D] reveal-on-scroll will-change-transform">From Story to Strategy
-        </h2>
+        <h2 class="text-4xl font-extrabold text-[#005C6D] text-center md:text-left reveal-on-scroll will-change-transform">From Story to Strategy
+          </h2>
         <p class="text-base text-[#4a6970] leading-relaxed reveal-on-scroll will-change-transform">Technology should
           enable growth, not complicate it. At Temani, we act as your trusted companion — combining deep expertise,
           innovation, and resilience to deliver solutions that make businesses stronger, smarter, and future-ready.</p>
@@ -121,12 +142,12 @@
           story: finding clarity where there is uncertainty, building bridges between people and technology, and shaping
           innovations that make businesses not only survive but thrive. That is the journey from story to strategy — and
           it is the journey we walk with you.</p>
-        <div class="flex flex-wrap gap-3 pt-4 reveal-on-scroll will-change-transform">
+        <!-- <div class="flex flex-wrap gap-3 pt-4 reveal-on-scroll will-change-transform">
           <a class="px-6 py-3 rounded-full bg-gradient-to-r from-[#0799A1] to-[#07949E] text-white shadow"
             href="#contact">Work with us</a>
           <a class="px-6 py-3 rounded-full border border-[#005C6D]/30 text-[#005C6D] hover:bg-[#009E8A]/10"
             href="#top">Back to top</a>
-        </div>
+        </div> -->
       </div>
   </section>
 
@@ -134,7 +155,7 @@
   <!-- BRAND ORIGIN / SYMBOLS & NAME -->
   <section id="brand-origin" class="py-20 bg-white">
     <div class="max-w-6xl mx-auto px-6 text-left">
-      <h2 class="text-4xl font-extrabold text-[#005C6D] mb-6 reveal-on-scroll will-change-transform">The Origin of
+      <h2 class="text-4xl font-extrabold text-[#005C6D] mb-6 text-center md:text-left reveal-on-scroll will-change-transform">The Origin of
         Temani</h2>
       <p class="text-base text-[#4a6970] mb-8 reveal-on-scroll will-change-transform">
         The name <span class="font-semibold">Temani</span> is more than a word—it’s a promise. In Indonesian,
@@ -195,8 +216,8 @@
   <!-- MISSION / HOW WE WORK -->
   <section id="mission" class="py-20 bg-[#f7fbfb]">
     <div class="max-w-6xl mx-auto px-6 text-left space-y-6">
-      <h2 class="text-4xl font-extrabold text-[#005C6D] reveal-on-scroll will-change-transform">From Story to Strategy
-      </h2>
+      <h2 class="text-4xl font-extrabold text-[#005C6D] text-center md:text-left reveal-on-scroll will-change-transform">From Story to Strategy
+        </h2>
       <p class="text-base text-[#4a6970] leading-relaxed reveal-on-scroll will-change-transform">Technology should
         enable growth, not complicate it. At Temani, we act as your trusted companion — combining deep expertise,
         innovation, and resilience to deliver solutions that make businesses stronger, smarter, and future-ready.</p>
@@ -215,12 +236,12 @@
         story: finding clarity where there is uncertainty, building bridges between people and technology, and shaping
         innovations that make businesses not only survive but thrive. That is the journey from story to strategy — and
         it is the journey we walk with you.</p>
-      <div class="flex flex-wrap gap-3 pt-4 reveal-on-scroll will-change-transform">
+      <!-- <div class="flex flex-wrap gap-3 pt-4 reveal-on-scroll will-change-transform">
         <a class="px-6 py-3 rounded-full bg-gradient-to-r from-[#0799A1] to-[#07949E] text-white shadow"
           href="#contact">Work with us</a>
         <a class="px-6 py-3 rounded-full border border-[#005C6D]/30 text-[#005C6D] hover:bg-[#009E8A]/10"
           href="#top">Back to top</a>
-      </div>
+      </div> -->
     </div>
   </section>
 
@@ -228,11 +249,11 @@
   <section id="contact" class="py-16 bg-white">
     <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-8 items-start">
       <div class="reveal-on-scroll will-change-transform">
-        <h2 class="text-3xl font-bold text-[#005C6D]">Let’s walk the path together</h2>
+        <h2 class="text-3xl font-bold text-[#005C6D] text-center md:text-left">Let’s walk the path together</h2>
         <p class="text-[#4a6970] mt-2">Tell us where you are today and where you want to go. We’ll help map the route
           and walk it with you — step by step.</p>
         <div class="mt-6 flex flex-wrap gap-3">
-          <a class="px-5 py-3 rounded-full bg-gradient-to-r from-[#0799A1] to-[#07949E] text-white shadow"
+          <a class="px-5 py-3 rounded-full bg-gradient-to-r from-[#0799A1] to-[#07949E] text-white shadow hidden md:inline"
             href="mailto:hello@temani.example">Email us</a>
         </div>
       </div>
@@ -260,17 +281,15 @@
 
   <!-- Footer -->
   <footer class="py-6 border-t border-black/10 text-[#4a6970]">
-    <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-3">
+    <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-3 text-center md:text-left">
       <div class="flex items-center gap-2"> <strong>Temani</strong> <span>© <span id="y"></span> All rights
         reserved</span> </div>
       <div>Wise as the dragon. Close as a partner. Always guiding the way forward.</div>
     </div>
   </footer>
   <script>
-    // Year
     document.getElementById('y').textContent = new Date().getFullYear();
 
-    // Header show on scroll with fade
     const header = document.getElementById('main-header');
     let headerVisible = false;
     window.addEventListener('scroll', () => {
@@ -289,7 +308,6 @@
       }
     });
 
-    // Simple IntersectionObserver reveal on scroll
     const els = Array.from(document.querySelectorAll('.reveal-on-scroll'));
     const setInitial = (el) => {
       el.classList.add('opacity-0', 'translate-y-6', 'transition-all', 'duration-700', 'ease-out');
@@ -313,7 +331,6 @@
   </script>
 
   <script>
-    // Contact form mailto handler
     document.getElementById('contact-form').addEventListener('submit', function (e) {
       e.preventDefault();
       var first = this.elements['first'].value;
